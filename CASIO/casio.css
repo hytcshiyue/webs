@@ -1,0 +1,30 @@
+/*整体框架*/
+#Header{width: 950px;height: 115px;margin: 0 auto;}
+#Menu{width: 950px;height: 100px;margin: 0 auto;border: 1px solid #ddd;}
+#Content{width: 100%;min-width:1349px;height: 3678px;margin: 0 auto;border: 1px solid #ddd;}
+#Footer{width: 950px;height: 310px;margin: 0 auto;border: 1px solid #ddd;}
+/*头部*/
+#logo{width: 216px;height: 95px;float: left;padding-top: 25px;}
+#links{width: 646px;height: 29px;float: right;padding-top:15px;}
+.UseInfo{width: 336px;height: 14px;color: #777;float: left;}
+.UseInfo a{color: #039;text-decoration: none;}
+.UseInfo a:hover{text-decoration: underline;}
+#links ul{float: left;width: 310px;height: 14px;margin-left: -8px;}
+#links li{float: left; }
+.links1 a{color: #777;text-decoration: none;font-size: 13px; padding-right: 2px;padding-left: 2px;}
+.links1 a:hover{text-decoration: underline;}
+#contact-service{width: 430px;height: 64px;float: right;margin-top: 5px;}
+#contact-service span{display: block;}
+p{float: left;}
+.time{width: 140px;height: 58px;color: #999;line-height: 30px;}
+.hotline{width: 222px;height: 55px;line-height: 30px;color: #f70;font-size: 15px;}
+.icon{float: left; width: 45px;height: 45px;background-image: url("css/image/5142bf4d732c96de6a00039e.png");background-position: -141px -675px ;}
+.tel-code{width: 66px;height: 64px;margin-top: -5px;}
+/*菜单栏*/
+/*内容*/
+#fixed{margin-left: 80px; width: 100px;height: 203px;background-image: url("images/53c5036b732c96f77c000004.png");position: fixed;display: block;}
+#fixed ul{margin: 35px auto;width: 66px;margin-left: 25px;}
+#fixed li{margin-bottom: 5px;}
+.fixedContent a{color: #000;text-decoration: none;line-height: 18px;}
+.fixedContent a:hover{color:white;}
+/*底部*/
