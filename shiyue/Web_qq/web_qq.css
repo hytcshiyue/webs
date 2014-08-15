@@ -18,11 +18,45 @@
 .icon08{background-position:-144px -1px;}
 .icon09{background-position:-166px -1px;}
 
-/*好友列表*/
-#FriendArea{width: 280px;height: 500px;border-radius: 7px;box-shadow: 2px 2px 6px rgba(0,0,0,0.7);}
+/*会话列表*/
+#huihua-no{width: 280px;height: 450px;display: none;}
+#faxian-no{width: 280px;height: 450px;display: none;}
+#FriendArea{width: 280px;height: 500px;border-radius: 7px;box-shadow: 2px 2px 6px rgba(0,0,0,0.7);background-color: #fff;}
 .FriendA{width: 280px;height: 450px;}
 #FAFooter{width: 280px;height: 50px;display: block;background-image: linear-gradient(#555, #222);border-bottom-right-radius: 6px 6px;}
 .FAFLi{width: 68px;height: 50px;cursor: pointer;border-right: 1px solid #222;float: left;} 
-.FAFLiLeft{} 
-.FAF01{}
-.FAFChangeColor{}
+.FAFLiLeft{border-left: 0;} 
+.FAFLiRight{border-right: 0;}
+
+.FAFChangeColor{background-color: #333;}
+.FAFPic{display: block;width: 34px;height: 34px;margin: 0 17px 0 17px;}
+.FAFPic01{background-image: url("css/images/huihua.png"); background-size: 34px 34px;}
+.FAFPic02{background-image: url("css/images/lianxiren.png"); background-size: 34px 34px;}
+.FAFPic03{background-image: url("css/images/faxian.png"); background-size: 34px 34px;}
+.FAFPic04{background-image: url("css/images/shezhi.png"); background-size: 34px 34px;}
+.FAFWord{display: block;height: 12px;color: #ccc;font-size: 12px;text-align: center;;font-family: "微软雅黑";line-height: 12px;}
+
+
+.FATop{width: 230px;height: 19px;background-image: linear-gradient(#555, #222);font-size: 18px;color: #fff;text-align: center; padding: 13px 30px 13px 20px;font-family: "微软雅黑";}
+.FAContent{width: 280px;height: 405px;overflow: auto;}
+.chatA{width: 261px;height: 57px;padding: 2px 1px 2px 1px;background-image: linear-gradient(#FFF, #F1F1F1);cursor: pointer;}
+.chatHeader{width: 40px;height: 40px;margin: 8px;background-size: 40px 40px;display: block;float: left;}
+.chatRight{width: 200px;height: 57px;float: left;}
+.chatName{display: inline-block;;height: 22px;padding: 4px 0 0 6px;font-family: "微软雅黑";line-height: 23px;font-size: 16px;font-weight: 400;}
+.chatNameA{display: inline-block;padding: 4px 0 0 2px;line-height: 23px;color: #aaa;}
+.chatInfo{display: block;width: 200px;height: 23px;padding: 4px 0 4px 6px;line-height: 23px;color: #aaa;float: left;overflow: hidden;}
+
+/*发现*/
+.FXContent{width: 280px;height: 93px;display: block;}
+.FXCLi{float: left;border:1px solid #eceef2;border-bottom-color: #c1c7d2;border-right-color: #c1c7d2;display: block;width: 91px;height: 93px;background-image: linear-gradient(rgb(231, 232, 235), rgb(218, 219, 224) 50%, rgb(199, 203, 210) 75%, rgb(211, 214, 219) 95%, rgb(211, 214, 221));background-color: rgb(218, 219, 224);}
+.FXCLiPic{width: 54px;height: 54px;margin: 8px 20px 4px 20px;display: block;}
+.FXCLiPic01{background-image: url("css/images/plugin_icon_qzone.jpg");background-size: 54px 54px;}
+.FXCLiWord{text-align: center;display: block;font-size: 13px;height: 19px;line-height: 19px;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.FXCLiPic02{background-image: url("css/images/plugin_icon_qmail.jpg");background-size: 54px 54px;}
+.FXCLiPic03{background-image: url("css/images/plugin_icon_qq_portal.png");background-size: 54px 54px;}
+
+
+/*设置*/
+.group{padding: 10px;cursor: pointer;}
+.SZkuang{}
+.SZMyInfo{}
