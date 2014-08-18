@@ -1,0 +1,14 @@
+/*整体框架*/
+#header{width: 100%;min-width:1349px;height: 35px;background-color: #333;position: relative;}
+#content{width: 960px;height: 1500px;border:1px solid #ccc;padding-top: 55px;margin: 0 auto;}
+#taobaoPic{width: 960px;height: 90px;margin: 10px auto;border:1px solid #ccc;}
+#footer{width: 960px; height: 42px;border:1px solid #ccc;margin:10px auto;}
+
+#headerMid{width: 960px;height: 35px;position: absolute;top:0;left: 188px;}
+.logo{width: 120px;height: 35px;float: left;}
+.topNav{position: absolute;left:134px;top: 0;height: 35px;width: 340px;}
+.topNavItem{float: left;height: 35px;text-align: center;}
+.topNavItem:hover{background-color: #333;}
+.topNav a{color:#c9c9c9 ;text-decoration: none;cursor: pointer;font-size: 14px;height: 12px;padding-top: 10px;display: block;padding-right: 10px;padding-left: 10px;}
+.active a{color: #fff;}
+#headerRight{width: 56px;height: 15px;float: right;color: #c9c9c9;text-align: center;margin-top:8px;}

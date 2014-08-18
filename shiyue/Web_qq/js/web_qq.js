@@ -82,7 +82,33 @@ $(function(){
 
 
 	//在线状态的切换
-	
+	$(".onlineState").click(function(){
+		
+		var isshow = $(".OSList").attr("isshow");
 
+		if(isshow == "no"){
+			$(".OSList").show();
+			$(".OSList").attr("isshow","yes");
+
+
+
+			//切换图标
+			$(".OSLi").click(function(){
+				var OSthisclass = $(this).find(".onlineIcon").attr("class");
+				$(".SZIcon").attr("class",OSthisclass +" SZIcon");
+			});
+		}
+		else{
+			$(".OSList").hide();
+			$(".OSList").attr("isshow","no");
+		}
+
+		
+		//增设聊天框
+		chathtml();
+	});
+
+	
+		
 
 });

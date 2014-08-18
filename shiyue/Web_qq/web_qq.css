@@ -1,4 +1,4 @@
-#QQ{width: 280px;height: 580px;margin-left: 200px;}
+#QQ{width: 280px;height: 580px;margin-left: 200px;float: left; position: relative;}
 .disnone{display: none;}
 /*个人信息*/
 #MyInfo{width: 280px;height: 75px;padding: 2px 20px 2px 20px;}
@@ -133,3 +133,4 @@
 .LXRqunPic{ display: block; width: 40px; height: 40px; background-image: url("images/qunHeader.jpg"); float: left;}
 .LXRqunLi span{font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; float: left; padding: 4px 0 0 12px;}
 .LXRTalkPic{display: block; width: 40px; height: 40px; background-image: url("images/discu_avatar.png"); background-repeat: no-repeat; background-size: 40px 40px; float: left;}
+#chatAllArea{width: 860px;height: 620px;float:left;}
